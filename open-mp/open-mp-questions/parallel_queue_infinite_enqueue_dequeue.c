@@ -25,7 +25,7 @@ int main()
                     }
                     else
                         printf("\n NO SPACE");
-                    //fgetc(stdin);
+                    fgetc(stdin);
                 }
             }
         }
@@ -40,8 +40,7 @@ int main()
                         d=Q[front];
                         front = -1;
                         rear = -1;
-                        printf("\n DELETED ITEM IS
-                        %d",d);
+                        printf("\n DELETED ITEM IS %d",d);
                     }
                     if(front<rear)
                     {
@@ -51,7 +50,7 @@ int main()
                     }
                     else
                         printf("\n NO ITEMS TO DELETE");
-                    //fgetc(stdin);
+                    fgetc(stdin);
                 }
             }
         }
